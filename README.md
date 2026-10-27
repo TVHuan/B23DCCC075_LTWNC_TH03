@@ -1,4 +1,11 @@
+# BÁO CÁO BÀI TẬP THỰC HÀNH 03: CLASS DEADLINE HUB
+**Cổng Thông Tin & Quản Lý Deadline Lớp Học (Next.js App Router)**
+- **Sinh viên thực hiện:** B23DCCC075
+- **Môn học:** Lập trình Web nâng cao (INT1434)
+- **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
+- **Repository:** [https://github.com/TVHuan/B23DCCC075_LTWNC_TH03](https://github.com/TVHuan/B23DCCC075_LTWNC_TH03)
 
+---
 
 ## 1. Hướng dẫn cài đặt và khởi chạy dự án
 
@@ -40,7 +47,9 @@ npm test
 
 ## 3. Bảng kết quả `npm run build` và Lý do chọn chiến lược Rendering
 
-### 3.1 Bảng kết quả Build thực tế từ Terminal
+### 3.1 Ảnh chụp kết quả `npm run build` thực tế từ Terminal
+
+![Ảnh kết quả npm run build](./anh_minh_chung/01_npm_run_build.png)
 
 ```text
 Route (app)                              Size     First Load JS
@@ -79,12 +88,14 @@ Route (app)                              Size     First Load JS
 
 Đo kiểm bằng Google Chrome Lighthouse trên cổng production (`http://localhost:3000`):
 
-| Tiêu chí đánh giá | Trang chủ `/` | Trang chi tiết `/deadlines/dl-1` |
-| :--- | :---: | :---: |
-| **Performance** | **98 / 100** | **99 / 100** |
-| **Accessibility** | **100 / 100** | **100 / 100** |
-| **Best Practices** | **100 / 100** | **100 / 100** |
-| **SEO** | **100 / 100** | **100 / 100** |
+![Kết quả đo kiểm Lighthouse](./anh_minh_chung/02_lighthouse.png)
+
+| Tiêu chí đánh giá | Điểm số đạt được | Đánh giá |
+| :--- | :---: | :--- |
+| **Performance** | **97 / 100** | Rất cao, tải tức thì nhờ SSG và Tailwind CSS v4 |
+| **Accessibility** | **95 / 100** | Độ tương phản màu sắc và cấu trúc HTML chuẩn |
+| **Best Practices** | **100 / 100** | Đạt điểm tuyệt đối, bảo mật HTTPS/Headers |
+| **SEO** | **100 / 100** | Đạt điểm tuyệt đối nhờ dynamic metadata và semantic HTML |
 
 *Nhận xét:* Nhờ áp dụng font tối ưu `next/font` (Inter tiếng Việt), không dùng ảnh nặng, render sẵn phía server (SSG/ISR) và cấu hình metadata chuẩn mực, ứng dụng đạt điểm số gần như tuyệt đối trên mọi tiêu chí.
 
@@ -92,7 +103,11 @@ Route (app)                              Size     First Load JS
 
 ## 5. Minh chứng HTML Render sẵn phía Server (`view-source`)
 
-Trích xuất mã nguồn HTML thực tế từ lệnh `curl http://localhost:3000/deadlines/dl-1`:
+### 5.1 Ảnh chụp `view-source:localhost:3000/deadlines/1` từ trình duyệt
+
+![Ảnh view-source của /deadlines/1](./anh_minh_chung/03_view_source.png)
+
+### 5.2 Trích xuất mã nguồn HTML thực tế từ Server
 
 ```html
 <!-- Thẻ Open Graph Image động sinh tự động từ opengraph-image.tsx -->
