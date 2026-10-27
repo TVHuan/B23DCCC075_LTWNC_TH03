@@ -55,7 +55,14 @@ export async function getDeadlines(): Promise<Deadline[]> {
 
 export async function getDeadlineById(id: string): Promise<Deadline | null> {
   const deadlines = await getDeadlines();
-  return deadlines.find((d) => d.id === id) || null;
+  return (
+    deadlines.find(
+      (d) =>
+        d.id === id ||
+        d.id === `dl-${id}` ||
+        (d.id.startsWith('dl-') && d.id.replace('dl-', '') === id)
+    ) || null
+  );
 }
 
 export async function getDeadlinesBySubject(subjectSlug: string): Promise<Deadline[]> {

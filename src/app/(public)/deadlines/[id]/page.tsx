@@ -13,12 +13,17 @@ interface DeadlineDetailPageProps {
   }>;
 }
 
-// ISR: Sinh trước danh sách id lúc build
+// ISR: Sinh trước danh sách id lúc build (hỗ trợ cả id 'dl-1' và '1' theo đề bài)
 export async function generateStaticParams() {
   const deadlines = await getDeadlines();
-  return deadlines.map((d) => ({
-    id: d.id,
-  }));
+  const params: { id: string }[] = [];
+  deadlines.forEach((d) => {
+    params.push({ id: d.id });
+    if (d.id.startsWith('dl-')) {
+      params.push({ id: d.id.replace('dl-', '') });
+    }
+  });
+  return params;
 }
 
 // Dynamic Metadata cho từng Deadline
