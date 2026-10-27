@@ -77,5 +77,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   pages: {
     signIn: '/login',
   },
+  secret: process.env.AUTH_SECRET || 'class-deadline-hub-super-secret-key-32chars',
   trustHost: true,
 });
