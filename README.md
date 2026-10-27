@@ -1,10 +1,4 @@
-# BÁO CÁO BÀI TẬP THỰC HÀNH 03: CLASS DEADLINE HUB
-**Cổng Thông Tin & Quản Lý Deadline Lớp Học (Next.js App Router)**
-- **Sinh viên thực hiện:** B23DCCC075
-- **Môn học:** Lập trình Web nâng cao (INT1434)
-- **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
 
----
 
 ## 1. Hướng dẫn cài đặt và khởi chạy dự án
 
