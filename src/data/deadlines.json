@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dl-1",
+    "subjectSlug": "ltwnc",
+    "title": "Báo cáo Thực hành 01: Next.js Fundamentals & Styling",
+    "description": "Xây dựng giao diện danh mục sản phẩm kết hợp Tailwind CSS và CSS Modules, tối ưu layout đáp ứng (Responsive).",
+    "dueDate": "2026-10-10T23:59:59.000Z",
+    "priority": "medium",
+    "submissionUrl": "https://classroom.google.com/c/ltwnc-th01",
+    "createdAt": "2026-09-28T08:00:00.000Z"
+  },
+  {
+    "id": "dl-2",
+    "subjectSlug": "ltwnc",
+    "title": "Báo cáo Thực hành 02: Dynamic Routing & State Management",
+    "description": "Xây dựng giỏ hàng và danh mục chi tiết với URL params, query string và quản lý client state.",
+    "dueDate": "2026-10-20T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://classroom.google.com/c/ltwnc-th02",
+    "createdAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "dl-3",
+    "subjectSlug": "ltwnc",
+    "title": "Báo cáo Thực hành 03: Class Deadline Hub (Next.js App Router)",
+    "description": "Xây dựng cổng web deadline của lớp áp dụng SSG, ISR định kỳ 60s, On-demand ISR, NextAuth JWT, Role Matrix can() và SEO JSON-LD.",
+    "dueDate": "2026-11-05T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://classroom.google.com/c/ltwnc-th03",
+    "createdAt": "2026-10-22T08:00:00.000Z"
+  },
+  {
+    "id": "dl-4",
+    "subjectSlug": "cnpm",
+    "title": "Nộp tài liệu đặc tả yêu cầu phần mềm (SRS)",
+    "description": "Tài liệu SRS chuẩn IEEE 830, mô tả User Stories, phi chức năng và biểu đồ Use Case tổng quát cho đồ án quản lý bệnh viện.",
+    "dueDate": "2026-10-15T23:59:59.000Z",
+    "priority": "medium",
+    "submissionUrl": "https://lms.ptit.edu.vn/course/view.php?id=cnpm-srs",
+    "createdAt": "2026-10-01T09:00:00.000Z"
+  },
+  {
+    "id": "dl-5",
+    "subjectSlug": "cnpm",
+    "title": "Thiết kế kiến trúc hệ thống và sơ đồ lớp (Class Diagram)",
+    "description": "Mô hình hóa chi tiết tầng Domain, Service, Repository, Sequence Diagram cho 3 usecase chính.",
+    "dueDate": "2026-11-02T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://lms.ptit.edu.vn/course/view.php?id=cnpm-design",
+    "createdAt": "2026-10-18T09:00:00.000Z"
+  },
+  {
+    "id": "dl-6",
+    "subjectSlug": "cnpm",
+    "title": "Báo cáo tiến độ Sprint 1 và Demo MVP",
+    "description": "Demo tính năng đăng ký, đăng nhập, phân quyền người dùng và chức năng CRUD sản phẩm cốt lõi.",
+    "dueDate": "2026-11-20T23:59:59.000Z",
+    "priority": "medium",
+    "submissionUrl": "https://lms.ptit.edu.vn/course/view.php?id=cnpm-sprint1",
+    "createdAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "id": "dl-7",
+    "subjectSlug": "csdlpt",
+    "title": "Bài tập lớn 01: Thiết kế phân mảnh ngang và dọc",
+    "description": "Xác định vị từ sơ cấp, ma trận sử dụng thuộc tính (AUM), phân tích cây dẫn xuất và viết script phân mảnh trên SQL Server.",
+    "dueDate": "2026-10-18T23:59:59.000Z",
+    "priority": "medium",
+    "submissionUrl": "https://forms.gle/csdlpt-btl01",
+    "createdAt": "2026-10-02T10:00:00.000Z"
+  },
+  {
+    "id": "dl-8",
+    "subjectSlug": "csdlpt",
+    "title": "Bài tập lớn 02: Tối ưu hóa truy vấn phân tán & Giao dịch 2PC",
+    "description": "Cấu hình Replication giữa 3 site phân tán, mô phỏng quá trình Commit 2 giai đoạn và xử lý phục hồi khi Site điều phối gặp sự cố.",
+    "dueDate": "2026-11-10T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://forms.gle/csdlpt-btl02",
+    "createdAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "dl-9",
+    "subjectSlug": "csdlpt",
+    "title": "Báo cáo cuối kỳ: Xây dựng cơ sở dữ liệu phân tán hoàn chỉnh",
+    "description": "Viết báo cáo kỹ thuật và quay video demo hoạt động đồng bộ dữ liệu đa chi nhánh thời gian thực.",
+    "dueDate": "2026-11-28T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://forms.gle/csdlpt-final",
+    "createdAt": "2026-10-24T10:00:00.000Z"
+  },
+  {
+    "id": "dl-10",
+    "subjectSlug": "anbm",
+    "title": "Lab 01: Triển khai thuật toán mã hóa RSA và AES",
+    "description": "Lập trình hàm sinh khóa bí mật/công khai, hàm mã hóa và giải mã khối dữ liệu lớn bằng Python/Crypto.",
+    "dueDate": "2026-10-22T23:59:59.000Z",
+    "priority": "low",
+    "submissionUrl": "https://classroom.google.com/c/anbm-lab01",
+    "createdAt": "2026-10-08T14:00:00.000Z"
+  },
+  {
+    "id": "dl-11",
+    "subjectSlug": "anbm",
+    "title": "Lab 02: Khai thác và khắc phục lỗ hổng SQL Injection, XSS",
+    "description": "Thực hành trên môi trường DVWA / WebGoat, viết báo cáo PoC chi tiết kỹ thuật khai thác và phương án vá lỗi tầng Backend.",
+    "dueDate": "2026-11-08T23:59:59.000Z",
+    "priority": "high",
+    "submissionUrl": "https://classroom.google.com/c/anbm-lab02",
+    "createdAt": "2026-10-22T14:00:00.000Z"
+  },
+  {
+    "id": "dl-12",
+    "subjectSlug": "anbm",
+    "title": "Báo cáo chuyên đề: Bảo mật giao thức OAuth2 & Zero Trust",
+    "description": "Phân tích quy trình cấp phát token Authorization Code Grant kèm PKCE, rủi ro CSRF và mô hình bảo mật Zero Trust trong doanh nghiệp.",
+    "dueDate": "2026-11-25T23:59:59.000Z",
+    "priority": "medium",
+    "submissionUrl": "https://classroom.google.com/c/anbm-report",
+    "createdAt": "2026-10-25T14:00:00.000Z"
+  }
+]

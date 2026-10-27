@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sub-ltwnc",
+    "slug": "ltwnc",
+    "code": "INT1434",
+    "name": "Lập trình Web nâng cao",
+    "description": "Nghiên cứu kiến trúc Next.js App Router, SSR, SSG, ISR, NextAuth, Server Actions và tối ưu hóa SEO.",
+    "instructor": "ThS. Hoàng Trọng Minh",
+    "credits": 3,
+    "color": "emerald",
+    "badgeBg": "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
+    "accentColor": "#10b981"
+  },
+  {
+    "id": "sub-cnpm",
+    "slug": "cnpm",
+    "code": "INT1340",
+    "name": "Công nghệ phần mềm",
+    "description": "Quy trình phát triển phần mềm Agile/Scrum, thiết kế hướng đối tượng UML, CI/CD và quản lý chất lượng dự án.",
+    "instructor": "TS. Vũ Khánh Quý",
+    "credits": 3,
+    "color": "blue",
+    "badgeBg": "bg-blue-500/10 text-blue-500 border-blue-500/20",
+    "accentColor": "#3b82f6"
+  },
+  {
+    "id": "sub-csdlpt",
+    "slug": "csdlpt",
+    "code": "INT13110",
+    "name": "Cơ sở dữ liệu phân tán",
+    "description": "Kỹ thuật phân mảnh dữ liệu, định vị, tối ưu hóa truy vấn phân tán, giao dịch 2PC và hệ thống NoSQL mở rộng.",
+    "instructor": "PGS.TS. Đặng Hoài Bắc",
+    "credits": 3,
+    "color": "purple",
+    "badgeBg": "bg-purple-500/10 text-purple-500 border-purple-500/20",
+    "accentColor": "#a855f7"
+  },
+  {
+    "id": "sub-anbm",
+    "slug": "anbm",
+    "code": "INT1415",
+    "name": "An toàn và bảo mật thông tin",
+    "description": "Mật mã học cổ điển & hiện đại, chữ ký điện tử, giao thức bảo mật SSL/TLS, xác thực OAuth2/JWT và phòng thủ tấn công web.",
+    "instructor": "TS. Nguyễn Ngọc Điệp",
+    "credits": 2,
+    "color": "amber",
+    "badgeBg": "bg-amber-500/10 text-amber-500 border-amber-500/20",
+    "accentColor": "#f59e0b"
+  }
+]

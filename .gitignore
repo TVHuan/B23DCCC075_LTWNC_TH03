@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ignored documentation files
+BAO_CAO_THUC_HANH.md
+DE_BAI.md
+PHAN_TICH_DE_BAI.md
